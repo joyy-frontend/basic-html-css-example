@@ -2,45 +2,65 @@
 <html lang="en">
 
 <head>
+  <title>Document</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+  </style>
 </head>
 
 <body>
-  <!-- Header -->
   <header>
-    <h1>Joy</h1>
+    <h1>PAGE TITLE</h1>
   </header>
-  <!-- Nav -->
-  <nav aria-label="navigation">
+  <nav>
     <ul>
-      <li><a href="#">One</a></li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
+      <li class="menu"><a href="#">Home</a></li>
+      <li class="menu"><a href="#">About</a></li>
+      <li class="menu"><a href="#">Gallery</a></li>
+      <li class="menu"><a href="#">Contact</a></li>
     </ul>
   </nav>
-  <!-- Main -->
-  <main>
-    <section>
-      <h2>Section1</h2>
-      <p>main content</p>
-      <h3>Section2</h3>
-      <p>Today : <time datetime="2024-08-13">Aug 13th, 2024</time>.</p>
-    </section>
-    <article>
-      <h2>TEST</h2>
-      <p>TEST Section</p>
-    </article>
-  </main>
-  <!-- aside -->
-  <aside>
-    <h2>example</h2>
-    <p>example section</p>
-  </aside>
+  <div class="container">
+    <div class="left">
+      <div class="color-area">
+        <h2>Article One</h2>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+          classical Latin
+          literature
+          from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+          Virginia,
+          looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+          cites of
+          the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
+          and
+          1.10.33
+          of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, </p>
+      </div>
+      <div class="image-area">
+        <span class="image">Image 1</span>
+        <span class="image">Image 2</span>
+        <span class="image">Image 3</span>
+      </div>
+    </div>
+    <div class="right">
+      <div class="right-area">
+        <h2>Projects</h2>
+      </div>
+      <ul>
+        <li>January 2024</li>
+        <li>December 2023</li>
+        <li>November 2023</li>
+        <li>October 2023</li>
+        <li>September 2023</li>
+      </ul>
+    </div>
+  </div>
   <!-- Footer -->
   <footer>
-    <p>&copy;Footer</p>
+    <div class="text">&copy;@2024 My Webpage | <a href="#">Privacy Policy</a></div>
   </footer>
 </body>
 
