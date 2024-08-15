@@ -5,7 +5,8 @@
 body {
   border: 1px solid black;
   padding: 20px;
-  font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
 }
 
 h1 {
@@ -31,14 +32,14 @@ nav > ul {
   text-align: center;
 }
 
-li {
+nav > ul > li {
   display: block;
   margin: 10px 0;
 }
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   border: 15px solid black;
   margin: 20px 0;
 }
@@ -65,7 +66,7 @@ li {
 }
 
 .right > ul {
-  height: 85%;
+  height: 82%;
 }
 
 .right .right-area h2 {
@@ -78,22 +79,26 @@ li {
   background-color: rgb(237, 237, 222);
 }
 .image-area {
+  margin: 20px 0;
   height: 100%;
 }
 .image {
   display: inline-block;
-  width: 32.81%;
+  width: 31.55%;
   height: 100px;
   box-sizing: border-box;
   text-align: center;
   vertical-align: middle;
   border: 5px solid #c8c893;
-  margin: 10px 0;
+  margin: 10px 5px;
   background-color: rgb(237, 237, 222);
-  padding: 70px 0;
-  height: 40%;
+  padding: 77px 0;
+  height: 30%;
 }
 
+.date {
+  padding: 10px 0;
+}
 h2 {
   text-align: center;
   margin: 0;
